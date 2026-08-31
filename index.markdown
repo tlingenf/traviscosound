@@ -1,11 +1,10 @@
 ---
 layout: default
-description: Austin musician, guitarist, vocalist, multi-instrumentalist, audio engineer, and performer.
+
 ---
 
 <header class="hero" id="top">
 	<nav class="site-nav" aria-label="Main navigation">
-		<a class="nav-mark" href="#top" aria-label="Travis Co Sound home">TCS</a>
 		<div class="nav-links">
 			<a href="#about">About</a>
 			<a href="#music">Music</a>
@@ -15,30 +14,25 @@ description: Austin musician, guitarist, vocalist, multi-instrumentalist, audio 
 	</nav>
 	<div class="hero-inner">
 		<div class="hero-copy">
-			<p class="eyebrow">Austin, Texas</p>
 			<h1>Travis Co<br>Sound</h1>
-			<p class="hero-roles">Musician <span>Audio Engineer</span> Performer</p>
+			<p class="hero-roles"><span>Musician</span> <span>Audio Engineer</span> <span>Performer</span></p>
+			<img class="hero-image" src="{{ '/assets/images/travis-guitar.png' | relative_url }}" alt="Travis playing a Les Paul guitar" width="350" height="525">
 		</div>
-		<img class="hero-image" src="{{ '/assets/images/travis-guitar.png' | relative_url }}" alt="Travis playing a Les Paul guitar" width="350" height="525">
 	</div>
-	<a class="hero-jump" href="#about">Meet Travis <span aria-hidden="true">↓</span></a>
 </header>
 
 <section class="about section" id="about">
 	<div class="section-heading">
-		<p class="eyebrow">The person behind the sound</p>
 		<h2>Meet Travis</h2>
 	</div>
-	<div class="about-grid">
-		<p class="about-lead">Hi, I’m Travis — a guitarist, vocalist, and multi-instrumentalist based in Austin. I write riff-driven, melodic rock with groove-heavy rhythms and expressive, emotional lead work.</p>
-		<p>When I pick up an instrument, a song pours out of it — guitar, bass, keys, whatever’s in reach. I’ve written and demoed a full album’s worth of original material and I’m looking to collaborate, join a band, or help build something new from the ground up.</p>
+	<div>
+		<p class="about-lead">Hi, I’m Travis — a guitarist, vocalist, and multi-instrumentalist based in Austin. I write riff-driven, melodic rock with groove-heavy rhythms and expressive, emotional lead work. When I pick up an instrument, a song pours out of it — guitar, bass, keys, whatever’s in reach. I’ve written a full album’s worth of original material and I’m looking to collaborate, join a band, or help build something new from the ground up.</p>
 	</div>
 </section>
 
 <section class="story-band">
 	<img src="{{ '/assets/images/travis-portrait.jpg' | relative_url }}" alt="Travis sitting on a stool and holding a guitar" width="1024" height="1024" loading="lazy">
 	<div class="story-copy">
-		<p class="story-number" aria-hidden="true">01</p>
 		<p>I’m dedicated, reliable, and easy to work with. I’ve got a full-time job and a family, but when the kids go to bed, the amps come on and the creativity kicks in.</p>
 		<p>I spend a lot of time in my DAW (Ableton), producing high-quality demos, experimenting with tones, and tightening arrangements. I also dabble in video production and enjoy putting together performance clips and playthroughs.</p>
 	</div>
@@ -52,29 +46,55 @@ description: Austin musician, guitarist, vocalist, multi-instrumentalist, audio 
 		</div>
 		<div>
 			<h3>A Sonic Journey</h3>
-			<p>Travis’s music combines blues-rock foundations with cinematic textures, offering a unique listening experience. His emotive songwriting and expressive guitar work create arrangements that evoke imagery and invite introspection.</p>
+			<p>Travis’s music combines blues-rock foundations with cinematic textures, offering a unique listening experience. His emotive songwriting and expressive guitar work create arrangements that evoke mental imagery and invite introspection.</p>
 		</div>
 	</div>
 	<div class="music-facts">
 		<article>
-			<span class="fact-index">A</span>
 			<h3>Instruments</h3>
-			<p>Electric lead &amp; rhythm guitar<br>Acoustic guitar<br>Bass guitar<br>Piano &amp; keyboards<br>Drums</p>
+			<ul>
+                <li>Electric Lead Guitar</li>
+                <li>Electric Rhythm Guitar</li>
+                <li>Acoustic Guitar</li>
+                <li>Bass Guitar</li>
+                <li>Piano</li>
+                <li>Keyboards</li>
+                <li>Drums</li>
+            </ul>
 		</article>
 		<article>
-			<span class="fact-index">B</span>
 			<h3>Styles</h3>
-			<p>Hard rock · Classic rock<br>90s alternative · Blues<br>Metal · Motown · Country</p>
+            <ul>
+                <li>Hard Rock</li>
+                <li>Classic Rock</li>
+                <li>90s Alternative</li>
+                <li>Blues</li>
+                <li>Metal</li>
+                <li>Motown</li>
+                <li>Country</li>
+            </ul>
 		</article>
 		<article>
-			<span class="fact-index">C</span>
 			<h3>Influences</h3>
-			<p>Pink Floyd · Guns N’ Roses · Led Zeppelin · Tom Petty · Type O Negative · Alice in Chains · Metallica · The Black Crowes · Stone Temple Pilots</p>
+            <ul>
+				<li>Pink Floyd</li>
+				<li>Guns N’ Roses</li>
+				<li>Led Zeppelin</li>
+				<li>Tom Petty</li>
+				<li>Type O Negative</li>
+				<li>Alice in Chains</li>
+				<li>Metallica</li>
+				<li>The Black Crowes</li>
+				<li>Stone Temple Pilots</li>
+			</ul>
 		</article>
 		<article>
-			<span class="fact-index">D</span>
 			<h3>Audio Engineer</h3>
-			<p>Amateur audio engineer<br>Ableton<br>Fender Studio Pro</p>
+			<ul>
+                <li>Analong and Digital Consoles</li>
+				<li>Ableton</li>
+				<li>Fender Studio Pro</li>
+			</ul>
 		</article>
 	</div>
 </section>
@@ -89,36 +109,16 @@ description: Austin musician, guitarist, vocalist, multi-instrumentalist, audio 
 	</div>
 	<div class="track-grid">
 		<article class="track">
-			<img src="{{ '/assets/images/burned-a-hole.jpg' | relative_url }}" alt="Burned A Hole In My Heart cover art" width="1024" height="1024" loading="lazy">
-			<div class="track-body">
-				<p class="track-number">Track 01</p>
-				<h3>Burned A Hole In My Heart</h3>
-				<audio controls preload="metadata" src="{{ '/assets/audio/burned-a-hole-in-my-heart.mp3' | relative_url }}">Your browser does not support audio playback.</audio>
-			</div>
+			<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" title="SoundCloud audio player" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2391578313&amp;color=%23b85622&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_teaser=false&amp;buying=false&amp;sharing=false&amp;download=false&amp;show_artwork=true&amp;show_playcount=false"></iframe>
 		</article>
 		<article class="track">
-			<img src="{{ '/assets/images/river-of-rain.jpg' | relative_url }}" alt="River of Rain cover art" width="754" height="754" loading="lazy">
-			<div class="track-body">
-				<p class="track-number">Track 02</p>
-				<h3>River of Rain</h3>
-				<audio controls preload="metadata" src="{{ '/assets/audio/river-of-rain.mp3' | relative_url }}">Your browser does not support audio playback.</audio>
-			</div>
+			<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" title="SoundCloud audio player" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2391579183&amp;color=%23b85622&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_teaser=false&amp;buying=false&amp;sharing=false&amp;download=false&amp;show_artwork=true&amp;show_playcount=false"></iframe>
 		</article>
 		<article class="track">
-			<img src="{{ '/assets/images/dragon-riders.jpg' | relative_url }}" alt="Dragon Riders cover art" width="320" height="320" loading="lazy">
-			<div class="track-body">
-				<p class="track-number">Track 03</p>
-				<h3>Dragon Riders</h3>
-				<audio controls preload="metadata" src="{{ '/assets/audio/dragon-riders.mp3' | relative_url }}">Your browser does not support audio playback.</audio>
-			</div>
+			<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" title="SoundCloud audio player" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2391582498&amp;color=%23b85622&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_teaser=false&amp;buying=false&amp;sharing=false&amp;download=false&amp;show_artwork=true&amp;show_playcount=false"></iframe>
 		</article>
 		<article class="track">
-			<img src="{{ '/assets/images/neon-horizon.jpg' | relative_url }}" alt="Neon Horizon cover art" width="320" height="213" loading="lazy">
-			<div class="track-body">
-				<p class="track-number">Track 04</p>
-				<h3>Neon Horizon</h3>
-				<audio controls preload="metadata" src="{{ '/assets/audio/neon-horizon.mp3' | relative_url }}">Your browser does not support audio playback.</audio>
-			</div>
+			<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" title="SoundCloud audio player" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2391579180&amp;color=%23b85622&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_teaser=false&amp;buying=false&amp;sharing=false&amp;download=false&amp;show_artwork=true&amp;show_playcount=false"></iframe>
 		</article>
 	</div>
 </section>
