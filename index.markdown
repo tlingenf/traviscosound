@@ -109,36 +109,16 @@ layout: default
 	</div>
 	<div class="track-grid">
 		<article class="track">
-			<img src="{{ '/assets/images/burned-a-hole.jpg' | relative_url }}" alt="Burned A Hole In My Heart cover art" width="1024" height="1024" loading="lazy">
-			<div class="track-body">
-				<p class="track-number">Track 01</p>
-				<h3>Burned A Hole In My Heart</h3>
-				<audio controls preload="metadata" src="{{ '/assets/audio/burned-a-hole-in-my-heart.mp3' | relative_url }}">Your browser does not support audio playback.</audio>
-			</div>
+			<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" title="SoundCloud audio player" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2391578313&amp;color=%23b85622&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_teaser=false&amp;buying=false&amp;sharing=false&amp;download=false&amp;show_artwork=true&amp;show_playcount=false"></iframe>
 		</article>
 		<article class="track">
-			<img src="{{ '/assets/images/river-of-rain.jpg' | relative_url }}" alt="River of Rain cover art" width="754" height="754" loading="lazy">
-			<div class="track-body">
-				<p class="track-number">Track 02</p>
-				<h3>River of Rain</h3>
-				<audio controls preload="metadata" src="{{ '/assets/audio/river-of-rain.mp3' | relative_url }}">Your browser does not support audio playback.</audio>
-			</div>
+			<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" title="SoundCloud audio player" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2391579183&amp;color=%23b85622&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_teaser=false&amp;buying=false&amp;sharing=false&amp;download=false&amp;show_artwork=true&amp;show_playcount=false"></iframe>
 		</article>
 		<article class="track">
-			<img src="{{ '/assets/images/dragon-riders.jpg' | relative_url }}" alt="Dragon Riders cover art" width="320" height="320" loading="lazy">
-			<div class="track-body">
-				<p class="track-number">Track 03</p>
-				<h3>Dragon Riders</h3>
-				<audio controls preload="metadata" src="{{ '/assets/audio/dragon-riders.mp3' | relative_url }}">Your browser does not support audio playback.</audio>
-			</div>
+			<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" title="SoundCloud audio player" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2391582498&amp;color=%23b85622&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_teaser=false&amp;buying=false&amp;sharing=false&amp;download=false&amp;show_artwork=true&amp;show_playcount=false"></iframe>
 		</article>
 		<article class="track">
-			<img src="{{ '/assets/images/neon-horizon.jpg' | relative_url }}" alt="Neon Horizon cover art" width="320" height="213" loading="lazy">
-			<div class="track-body">
-				<p class="track-number">Track 04</p>
-				<h3>Neon Horizon</h3>
-				<audio controls preload="metadata" src="{{ '/assets/audio/neon-horizon.mp3' | relative_url }}">Your browser does not support audio playback.</audio>
-			</div>
+			<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" title="SoundCloud audio player" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2391579180&amp;color=%23b85622&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_teaser=false&amp;buying=false&amp;sharing=false&amp;download=false&amp;show_artwork=true&amp;show_playcount=false"></iframe>
 		</article>
 	</div>
 </section>
