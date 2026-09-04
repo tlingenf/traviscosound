@@ -124,15 +124,13 @@ layout: default
 </section>
 
 <section class="production-note">
-	<p class="eyebrow">Made here</p>
 	<h2>Audio and video<br>by Travis</h2>
 	<p>All audio and video on this page was mixed and produced by Travis. Original works are written and performed by Travis.</p>
 </section>
 
 <section class="performances section" id="performances">
 	<div class="section-heading">
-		<p class="eyebrow">On stage &amp; in studio</p>
-		<h2>Stage<br>Performance</h2>
+		<h2>Stage &amp; Performance</h2>
 	</div>
 	<div class="video-grid">
 		<article class="video-item">

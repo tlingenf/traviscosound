@@ -384,7 +384,7 @@ h2 {
 .performances > .section-heading {
   position: relative;
   z-index: 2;
-  margin-bottom: -2.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .video-grid {
@@ -434,7 +434,7 @@ h2 {
   color: var(--white);
   background-color: var(--ink);
   background-image: linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
-  background-size: 48px 48px;
+
 }
 
 .contact .eyebrow {
