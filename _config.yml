@@ -21,7 +21,7 @@
 title: Travis Co Sound
 description: Austin, Texas based guitarist, vocalist, multi-instrumentalist, audio engineer, and performer.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.traviscosound.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://traviscosound.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  tlingenf
 
