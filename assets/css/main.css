@@ -612,7 +612,7 @@ h2 {
   }
 
   .nav-links a:nth-child(1),
-  .nav-links a:nth-child(3) {
+  .nav-links a:nth-child(2) {
     display: none;
   }
 /* 
