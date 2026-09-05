@@ -400,8 +400,18 @@ h2 {
 }
 
 .video-item-offset {
+  margin-top: 2rem;
+}
+
+.video-grid .video-item-offset:nth-child(1) {
+  margin-top: 2rem;
+}
+
+.video-grid .video-item-offset:nth-child(1) {
   margin-top: 12rem;
 }
+
+a:nth-child(1)
 
 .video-frame {
   position: relative;
