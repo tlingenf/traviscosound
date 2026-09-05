@@ -156,6 +156,10 @@ h2 {
   align-items: start;
 }
 
+.hero-copy span {
+  white-space: nowrap;
+}
+
 .hero h1 {
   grid-area: heading;
   margin: 0;
