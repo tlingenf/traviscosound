@@ -149,6 +149,7 @@ layout: default
 			<div>
 				<iframe src="https://www.youtube.com/embed/0zm8swAoXxo?si=FbDqTj9xBQ36tgGQ" title="January's Song (Live Audio) with Winter Landscapes Video by Travis Lingenfelder" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
+			<p><span>Live Performance with Winter Landscapes Video</span> January's Song by Travis Lingenfelder</p>
 		</article>
 	</div>
 </section>
