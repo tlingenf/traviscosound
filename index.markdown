@@ -8,7 +8,8 @@ layout: default
 		<div class="nav-links">
 			<a href="#about">About</a>
 			<a href="#music">Music</a>
-			<a href="#performances">Watch</a>
+			<a href="#samples">Originals</a>
+			<a href="#performances">Performance</a>
 			<a href="#contact">Contact</a>
 		</div>
 	</nav>
@@ -152,13 +153,35 @@ layout: default
 	<div>
 		<p class="eyebrow">Collaborate · Perform · Create</p>
 		<h2>Reach Out</h2>
+		<div class="contact-links">
+			<a href="https://www.youtube.com/@TravisCoSound/" target="_blank" rel="noopener">YouTube <span aria-hidden="true">↗</span></a>
+			<a href="https://www.instagram.com/traviscosound/" target="_blank" rel="noopener">Instagram <span aria-hidden="true">↗</span></a>
+		</div>		
 	</div>
 	<div class="contact-copy">
 		<p>Looking for a guitarist, a collaborator, or someone to help shape a new sound? Connect with Travis.</p>
-		<div class="contact-links">
-			<a href="https://www.youtube.com/channel/UCEEsi8F3mEUEbZslJUSRhoA" target="_blank" rel="noopener">YouTube <span aria-hidden="true">↗</span></a>
-			<a href="https://www.instagram.com/noiseontherocks/" target="_blank" rel="noopener">Instagram <span aria-hidden="true">↗</span></a>
-			<a href="https://github.com/tlingenf" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
-		</div>
+		<form class="contact-form" action="https://formspree.io/f/maeybrjp" method="POST">
+			<div class="form-field">
+				<label for="name">Name <span aria-hidden="true">*</span></label>
+				<input id="name" name="name" type="text" autocomplete="name" required>
+			</div>
+			<div class="form-field">
+				<label for="email">Email <span aria-hidden="true">*</span></label>
+				<input id="email" name="email" type="email" autocomplete="email" required>
+			</div>
+			<div class="form-field">
+				<label for="phone">Phone <span>(optional)</span></label>
+				<input id="phone" name="phone" type="tel" autocomplete="tel">
+			</div>
+			<div class="form-field">
+				<label for="message">Message <span aria-hidden="true">*</span></label>
+				<textarea id="message" name="message" rows="6" required></textarea>
+			</div>
+			<div class="form-trap" aria-hidden="true">
+				<label for="gotcha">Company</label>
+				<input id="gotcha" name="_gotcha" type="text" tabindex="-1" autocomplete="off">
+			</div>
+			<button type="submit">Send message <span aria-hidden="true">↗</span></button>
+		</form>
 	</div>
 </section>
