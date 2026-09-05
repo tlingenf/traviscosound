@@ -103,8 +103,7 @@ layout: default
 <section class="samples section" id="samples">
 	<div class="samples-heading">
 		<div class="section-heading section-heading-light">
-			<p class="eyebrow">Listen</p>
-			<h2>Samples</h2>
+			<h2>Original Samples</h2>
 		</div>
 		<p>Original works written, performed, mixed, and produced by Travis.</p>
 	</div>
