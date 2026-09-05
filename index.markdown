@@ -141,7 +141,7 @@ layout: default
 		</article>
 		<article class="video-item video-item-offset">
 			<div class="video-frame">
-				<iframe src="https://www.youtube-nocookie.com/embed/Z5vaKV_W_0c" title="Another Brick in the Wall by Pink Floyd, one man band cover by Travis Lingenfelder" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/Z5vaKV_W_0c?si=pCISzXMVVTOw2cW4&start=266" title="Another Brick in the Wall by Pink Floyd, one man band cover by Travis Lingenfelder" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
 			<p><span>One man band</span> Another Brick in the Wall — Pink Floyd</p>
 		</article>
