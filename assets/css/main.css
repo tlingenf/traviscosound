@@ -393,18 +393,23 @@ h2 {
 
 .video-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: clamp(2rem, 5vw, 5rem);
   align-items: start;
   padding-left: 12vw;
 }
 
 .video-item-offset {
-  margin-top: 12rem;
+  margin-top: 0;
+}
+
+.video-item:nth-child(even) {
+  margin-top: clamp(3rem, 8vw, 8rem);
 }
 
 .video-frame {
   position: relative;
+  width: 100%;
   aspect-ratio: 16 / 9;
   overflow: hidden;
   background: var(--ink);
@@ -732,7 +737,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 
-  .video-item-offset {
+  .video-item:nth-child(even) {
     margin-top: 2rem;
   }
 

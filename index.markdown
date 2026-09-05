@@ -145,12 +145,18 @@ layout: default
 			</div>
 			<p><span>One man band</span> Another Brick in the Wall — Pink Floyd</p>
 		</article>
-		<article>
-			<div>
+		<article class="video-item video-item-offset">
+			<div class="video-frame">
 				<iframe src="https://www.youtube.com/embed/0zm8swAoXxo?si=FbDqTj9xBQ36tgGQ" title="January's Song (Live Audio) with Winter Landscapes Video by Travis Lingenfelder" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
 			<p><span>Live Performance with Winter Landscapes Video</span> January's Song by Travis Lingenfelder</p>
 		</article>
+		<article class="video-item video-item-offset">
+			<div class="video-frame">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/7f8fcCZ2GKI?si=WWwHQGCGbklK_Goj" title="Live band performance" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			<p><span>Classic Rock Covers</span> 3 Song Performand with a band</p>
+		</article>		
 	</div>
 </section>
 
