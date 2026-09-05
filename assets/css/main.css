@@ -156,10 +156,6 @@ h2 {
   align-items: start;
 }
 
-.hero-copy span {
-  white-space: nowrap;
-}
-
 .hero h1 {
   grid-area: heading;
   margin: 0;
@@ -176,6 +172,10 @@ h2 {
   margin: 4rem 0 0 4rem;
   font-size: clamp(2.3rem, 4.4vw, 3.25rem);
   font-weight: 700;
+}
+
+.hero-roles span {
+  white-space: nowrap;
 }
 
 /* .hero-roles span::before,
