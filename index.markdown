@@ -133,13 +133,19 @@ layout: default
 		<h2>Stage &amp; Performance</h2>
 	</div>
 	<div class="video-grid">
-		<article class="video-item">
+		<article class="video-item video-item">
+			<div class="video-frame">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/7f8fcCZ2GKI?si=WWwHQGCGbklK_Goj" title="Live band performance" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			<p><span>Classic Rock Covers</span> 3 Song Performand with a band</p>
+		</article>		
+		<article class="video-item-offset">
 			<div class="video-frame">
 				<iframe src="https://www.youtube-nocookie.com/embed/8HqPnVvAAH8" title="Shine by Collective Soul, live cover by Noise on the Rocks" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
 			<p><span>Live cover</span> Shine — Collective Soul</p>
 		</article>
-		<article class="video-item video-item-offset">
+		<article class="video-item video-item">
 			<div class="video-frame">
 				<iframe src="https://www.youtube.com/embed/Z5vaKV_W_0c?si=pCISzXMVVTOw2cW4&start=266" title="Another Brick in the Wall by Pink Floyd, one man band cover by Travis Lingenfelder" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
@@ -150,13 +156,7 @@ layout: default
 				<iframe src="https://www.youtube.com/embed/0zm8swAoXxo?si=FbDqTj9xBQ36tgGQ" title="January's Song (Live Audio) with Winter Landscapes Video by Travis Lingenfelder" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
 			<p><span>Live Performance with Winter Landscapes Video</span> January's Song by Travis Lingenfelder</p>
-		</article>
-		<article class="video-item video-item-offset">
-			<div class="video-frame">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/7f8fcCZ2GKI?si=WWwHQGCGbklK_Goj" title="Live band performance" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-			</div>
-			<p><span>Classic Rock Covers</span> 3 Song Performand with a band</p>
-		</article>		
+		</article>	
 	</div>
 </section>
 
