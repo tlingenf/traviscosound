@@ -31,6 +31,18 @@ layout: default
 	</div>
 </section>
 
+<section class="social section" aria-label="Follow Travis on social media">
+	<div class="section-heading">
+		<p class="eyebrow">Stay connected</p>
+		<h2>Follow Travis</h2>
+	</div>
+	<p>Subscribe for new music, live performances, and behind-the-scenes updates from Travis.</p>
+	<div class="contact-links">
+		<a href="https://www.youtube.com/@TravisCoSound/" target="_blank" rel="noopener">YouTube <span aria-hidden="true">↗</span></a>
+		<a href="https://www.instagram.com/traviscosound/" target="_blank" rel="noopener">Instagram <span aria-hidden="true">↗</span></a>
+	</div>
+</section>
+
 <section class="story-band">
 	<img src="{{ '/assets/images/travis-portrait.jpg' | relative_url }}" alt="Travis sitting on a stool and holding a guitar" width="1024" height="1024" loading="lazy">
 	<div class="story-copy">
