@@ -38,23 +38,19 @@ layout: default
 	</div>
 	<p>Subscribe for new music, live performances, and behind-the-scenes updates from Travis.</p>
 	<div class="social-links">
-		<a class="social-link" href="https://www.youtube.com/@TravisCoSound/" target="_blank" rel="noopener">
-			<svg class="social-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-				<path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.5V8.5l6.3 3.5-6.3 3.5Z"/>
-			</svg>
+		<a class="social-link" href="https://www.youtube.com/channel/UCEEsi8F3mEUEbZslJUSRhoA/" target="_blank" rel="noopener">
+			<img class="social-link-icon" src="{{ '/assets/images/youtube.png' | relative_url }}" aria-hidden="true" />
 			<span class="social-link-name">@TravisCoSound</span>
 		</a>
 		<a class="social-link" href="https://www.instagram.com/traviscosound/" target="_blank" rel="noopener">
-			<svg class="social-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-				<path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.06 2.05.25 2.8.54.75.29 1.38.68 2 1.3.62.62 1.01 1.25 1.3 2a6.1 6.1 0 0 1 .54 2.8c.06 1.3.07 1.7.07 4.9s0 3.6-.07 4.9a6.1 6.1 0 0 1-.54 2.8c-.29.75-.68 1.38-1.3 2-.62.62-1.25 1.01-2 1.3a6.1 6.1 0 0 1-2.8.54c-1.3.06-1.7.07-4.9.07s-3.6 0-4.9-.07a6.1 6.1 0 0 1-2.8-.54c-.75-.29-1.38-.68-2-1.3-.62-.62-1.01-1.25-1.3-2a6.1 6.1 0 0 1-.54-2.8C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9a6.1 6.1 0 0 1 .54-2.8c.29-.75.68-1.38 1.3-2 .62-.62 1.25-1.01 2-1.3a6.1 6.1 0 0 1 2.8-.54C8.4 2.2 8.8 2.2 12 2.2Zm0 2c-3.15 0-3.52 0-4.76.07-.95.04-1.47.2-1.81.34-.46.18-.78.39-1.12.73-.34.34-.55.66-.73 1.12-.14.34-.3.86-.34 1.81C3.2 8.48 3.2 8.85 3.2 12s0 3.52.07 4.76c.04.95.2 1.47.34 1.81.18.46.39.78.73 1.12.34.34.66.55 1.12.73.34.14.86.3 1.81.34C8.48 20.8 8.85 20.8 12 20.8s3.52 0 4.76-.07c.95-.04 1.47-.2 1.81-.34.46-.18.78-.39 1.12-.73.34-.34.55-.66.73-1.12.14-.34.3-.86.34-1.81.06-1.24.07-1.61.07-4.76s0-3.52-.07-4.76c-.04-.95-.2-1.47-.34-1.81a3.02 3.02 0 0 0-.73-1.12 3.02 3.02 0 0 0-1.12-.73c-.34-.14-.86-.3-1.81-.34C15.52 4.2 15.15 4.2 12 4.2Zm0 3.3a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm5.75-2.6a1.05 1.05 0 1 1-2.1 0 1.05 1.05 0 0 1 2.1 0Z"/>
-			</svg>
-			<span class="social-link-name">@traviscosound</span>
+			<img class="social-link-icon" src="{{ '/assets/images/instagram.png' | relative_url }}" target="_blank" aria-hidden="true" />
+			<span class="social-link-name">@TravisCoSound-atx</span>
 		</a>
 	</div>
 </section>
 
 <section class="story-band">
-	<img src="{{ '/assets/images/travis-portrait.jpg' | relative_url }}" alt="Travis sitting on a stool and holding a guitar" width="1024" height="1024" loading="lazy">
+	<img src="{{ '/assets/images/travis-portrait.jpg' | relative_url }}" alt="Travis sitting on a stool and holding a guitar" width="1024" height="1024" loading="lazy" />
 	<div class="story-copy">
 		<p>I’m dedicated, reliable, and easy to work with. I’ve got a full-time job and a family, but when the kids go to bed, the amps come on and the creativity kicks in.</p>
 		<p>I spend a lot of time in my DAW (Ableton), producing high-quality demos, experimenting with tones, and tightening arrangements. I also dabble in video production and enjoy putting together performance clips and playthroughs.</p>
