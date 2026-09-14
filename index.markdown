@@ -33,8 +33,8 @@ layout: default
 
 <section class="social section" aria-label="Follow Travis on social media">
 	<div class="section-heading">
-		<p class="eyebrow">Stay connected</p>
-		<h2>Follow Travis</h2>
+		<p class="eyebrow">Follow Travis</p>
+		<h2>Stay connected</h2>
 	</div>
 	<p>Subscribe for new music, live performances, and behind-the-scenes updates from Travis.</p>
 	<div class="social-links">
@@ -157,7 +157,7 @@ layout: default
 			</div>
 			<p><span>Classic Rock Covers</span> 3 Song Performand with a band</p>
 		</article>		
-		<article class="video-item-offset">
+		<article class="video-item video-item-offset">
 			<div class="video-frame">
 				<iframe src="https://www.youtube-nocookie.com/embed/8HqPnVvAAH8" title="Shine by Collective Soul, live cover by Noise on the Rocks" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
@@ -183,7 +183,7 @@ layout: default
 		<p class="eyebrow">Collaborate · Perform · Create</p>
 		<h2>Reach Out</h2>
 		<div class="contact-links">
-			<a href="https://www.youtube.com/@TravisCoSound/" target="_blank" rel="noopener">YouTube <span aria-hidden="true">↗</span></a>
+		<a href="https://www.youtube.com/channel/UCEEsi8F3mEUEbZslJUSRhoA/" target="_blank" rel="noopener">YouTube <span aria-hidden="true">↗</span></a>
 			<a href="https://www.instagram.com/traviscosound/" target="_blank" rel="noopener">Instagram <span aria-hidden="true">↗</span></a>
 		</div>		
 	</div>
