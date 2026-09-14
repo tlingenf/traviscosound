@@ -80,6 +80,10 @@ h2 {
   padding: clamp(4.5rem, 10vw, 9rem) max(5vw, calc((100vw - 1440px) / 2));
 }
 
+.section-heading h2 {
+  line-height: 1.2;
+}
+
 .eyebrow {
   margin-bottom: 1rem;
   font-size: 0.75rem;
@@ -547,6 +551,45 @@ h2 {
 .contact-links a:hover,
 .contact-links a:focus-visible {
   color: var(--yellow);
+}
+
+.social {
+  background-color: var(--ink);
+  color: var(--white);
+}
+
+.social-links {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2.5rem;
+}
+
+.social-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  /* color: var(--ink); */
+}
+
+.social-link-icon {
+  width: 120px;
+  height: 120px;
+  padding: 0.85rem;
+  fill: var(--white);
+  background: var(--ink);
+  transition: background-color 0.2s ease;
+}
+
+.social-link-name {
+  font-weight: 700;
+  text-align: center;
+}
+
+.social-link:hover .social-link-icon,
+.social-link:focus-visible .social-link-icon {
+  background: var(--rust);
 }
 
 .site-footer {

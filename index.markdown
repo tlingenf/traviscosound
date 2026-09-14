@@ -31,8 +31,26 @@ layout: default
 	</div>
 </section>
 
+<section class="social section" aria-label="Follow Travis on social media">
+	<div class="section-heading">
+		<p class="eyebrow">Follow Travis</p>
+		<h2>Stay connected</h2>
+	</div>
+	<p>Subscribe for new music, live performances, and behind-the-scenes updates from Travis.</p>
+	<div class="social-links">
+		<a class="social-link" href="https://www.youtube.com/channel/UCEEsi8F3mEUEbZslJUSRhoA/" target="_blank" rel="noopener">
+			<img class="social-link-icon" src="{{ '/assets/images/youtube.png' | relative_url }}" aria-hidden="true" />
+			<span class="social-link-name">@TravisCoSound</span>
+		</a>
+		<a class="social-link" href="https://www.instagram.com/traviscosound/" target="_blank" rel="noopener">
+			<img class="social-link-icon" src="{{ '/assets/images/instagram.png' | relative_url }}" target="_blank" aria-hidden="true" />
+			<span class="social-link-name">@TravisCoSound-atx</span>
+		</a>
+	</div>
+</section>
+
 <section class="story-band">
-	<img src="{{ '/assets/images/travis-portrait.jpg' | relative_url }}" alt="Travis sitting on a stool and holding a guitar" width="1024" height="1024" loading="lazy">
+	<img src="{{ '/assets/images/travis-portrait.jpg' | relative_url }}" alt="Travis sitting on a stool and holding a guitar" width="1024" height="1024" loading="lazy" />
 	<div class="story-copy">
 		<p>I’m dedicated, reliable, and easy to work with. I’ve got a full-time job and a family, but when the kids go to bed, the amps come on and the creativity kicks in.</p>
 		<p>I spend a lot of time in my DAW (Ableton), producing high-quality demos, experimenting with tones, and tightening arrangements. I also dabble in video production and enjoy putting together performance clips and playthroughs.</p>
@@ -133,13 +151,19 @@ layout: default
 		<h2>Stage &amp; Performance</h2>
 	</div>
 	<div class="video-grid">
-		<article class="video-item">
+		<article class="video-item video-item">
+			<div class="video-frame">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/7f8fcCZ2GKI?si=WWwHQGCGbklK_Goj" title="Live band performance" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			<p><span>Classic Rock Covers</span> 3 Song Performand with a band</p>
+		</article>		
+		<article class="video-item video-item-offset">
 			<div class="video-frame">
 				<iframe src="https://www.youtube-nocookie.com/embed/8HqPnVvAAH8" title="Shine by Collective Soul, live cover by Noise on the Rocks" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
 			<p><span>Live cover</span> Shine — Collective Soul</p>
 		</article>
-		<article class="video-item video-item-offset">
+		<article class="video-item video-item">
 			<div class="video-frame">
 				<iframe src="https://www.youtube.com/embed/Z5vaKV_W_0c?si=pCISzXMVVTOw2cW4&start=266" title="Another Brick in the Wall by Pink Floyd, one man band cover by Travis Lingenfelder" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
@@ -150,13 +174,7 @@ layout: default
 				<iframe src="https://www.youtube.com/embed/0zm8swAoXxo?si=FbDqTj9xBQ36tgGQ" title="January's Song (Live Audio) with Winter Landscapes Video by Travis Lingenfelder" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
 			<p><span>Live Performance with Winter Landscapes Video</span> January's Song by Travis Lingenfelder</p>
-		</article>
-		<article class="video-item video-item-offset">
-			<div class="video-frame">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/7f8fcCZ2GKI?si=WWwHQGCGbklK_Goj" title="Live band performance" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-			</div>
-			<p><span>Classic Rock Covers</span> 3 Song Performand with a band</p>
-		</article>		
+		</article>	
 	</div>
 </section>
 
@@ -165,7 +183,7 @@ layout: default
 		<p class="eyebrow">Collaborate · Perform · Create</p>
 		<h2>Reach Out</h2>
 		<div class="contact-links">
-			<a href="https://www.youtube.com/@TravisCoSound/" target="_blank" rel="noopener">YouTube <span aria-hidden="true">↗</span></a>
+		<a href="https://www.youtube.com/channel/UCEEsi8F3mEUEbZslJUSRhoA/" target="_blank" rel="noopener">YouTube <span aria-hidden="true">↗</span></a>
 			<a href="https://www.instagram.com/traviscosound/" target="_blank" rel="noopener">Instagram <span aria-hidden="true">↗</span></a>
 		</div>		
 	</div>
