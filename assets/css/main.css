@@ -549,6 +549,45 @@ h2 {
   color: var(--yellow);
 }
 
+.social {
+  background-color: var(--ink);
+}
+
+.social-links {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2.5rem;
+}
+
+.social-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.social-link-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: 0.85rem;
+  fill: var(--white);
+  background: var(--ink);
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+}
+
+.social-link-name {
+  font-weight: 700;
+  text-align: center;
+}
+
+.social-link:hover .social-link-icon,
+.social-link:focus-visible .social-link-icon {
+  background: var(--rust);
+}
+
 .site-footer {
   display: flex;
   justify-content: space-between;
