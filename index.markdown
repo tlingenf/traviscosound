@@ -103,6 +103,7 @@ layout: default
 				<li>Type O Negative</li>
 				<li>Alice in Chains</li>
 				<li>Metallica</li>
+				<li>The Grateful Dead</li>
 				<li>The Black Crowes</li>
 				<li>Stone Temple Pilots</li>
 			</ul>
